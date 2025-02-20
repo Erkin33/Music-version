@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>My Music Library</title>
+  <style>
+    body {
+      background-color: #121212;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    .container {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+    .track {
+      display: flex;
+      align-items: flex-start;
+      border-bottom: 1px solid #333;
+      padding: 15px 0;
+    }
+    .cover {
+      width: 60px;
+      height: 60px;
+      border-radius: 5px;
+      object-fit: cover;
+      margin-right: 20px;
+    }
+    .info {
+      flex: 1;
+    }
+    .info h2 {
+      font-size: 18px;
+      margin: 0 0 5px;
+    }
+    .info p {
+      font-size: 14px;
+      margin: 0 0 10px;
+      color: #aaa;
+    }
+    audio {
+      width: 100%;
+      margin-top: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>My Music Library</h1>
+    <!-- Первый трек -->
+    <div class="track">
+      <img class="cover" src="./Photos/fate4.jpg" alt="Cover 1" />
+      <div class="info">
+        <h2>Track Title 1</h2>
+        <p>Artist Name 1</p>
+        <audio controls>
+          <source src="./Music/Do-notStop.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <!-- Второй трек -->
+    <div class="track">
+        <img class="cover" src="./Photos/fate3.jpg" alt="Cover 1" />
+      <div class="info">
+        <h2>Track Title 2</h2>
+        <p>Artist Name 2</p>
+        <audio controls>
+          <source src="./Music/FUNK-INFERNAL.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div><div class="track">
+        <img class="cover" src="./Photos/fate2.jpg" alt="Cover 1" />
+      <div class="info">
+        <h2>Track Title 2</h2>
+        <p>Artist Name 2</p>
+        <audio controls>
+          <source src="./Music/Jujutsu.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div><div class="track">
+        <img class="cover" src="./Photos/FATE.jpg" alt="Cover 1" />
+      <div class="info">
+        <h2>Track Title 2</h2>
+        <p>Artist Name 2</p>
+        <audio controls>
+          <source src="./Music/Ogryzek.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <div class="track">
+        <img class="cover" src="./Photos/fate-saber.jpg" alt="Cover 1" />
+      <div class="info">
+        <h2>Track Title 2</h2>
+        <p>Artist Name 2</p>
+        <audio controls>
+          <source src="./Music/𝟐𝐏𝐇𝐔𝐓𝐇𝐎𝐍.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+      </div>
+    </div>
+    <!-- Добавьте дополнительные треки по образцу -->
+  </div>
+</body>
+</html>
